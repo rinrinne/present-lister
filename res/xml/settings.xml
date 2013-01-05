@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/pref_title">
+    
+    <ListPreference
+        android:key="waittime"
+        android:title="@string/pref_waittime"
+        android:summary="@string/pref_waittime_summary"
+        android:entries="@array/list_waittime"
+        android:entryValues="@array/list_waittime"
+        android:defaultValue="@string/pref_waittime_default" />
+    
+    <CheckBoxPreference
+        android:key="clearsuggestions"
+        android:title="@string/pref_clear_suggestions"
+        android:summary="@string/pref_clear_suggestions_summary"
+        android:defaultValue="false" />
+    
+    <Preference 
+        android:key="dropbox"
+        android:title="@string/pref_dropbox"
+        android:summary="@string/pref_dropbox_disabled_summary"/>
+
+</PreferenceScreen>

@@ -1,0 +1,92 @@
+<resources>
+
+    <string name="app_name">ストックアイドルリスター</string>
+    <string name="title_activity_import">贈り物からインポート</string>
+    <string name="title_activity_card_list">アイドルリスト in 贈り物</string>
+    <string name="button_listing_start">マイスタジオまで移動してください</string>
+    <string name="button_listing_start_enable">インポート開始</string>
+    <string name="menu_reload">リロード</string>
+    <string name="menu_top">Mobage</string>
+    <string name="menu_home">モバマス</string>
+    <string name="menu_logout">ログアウト</string>
+    <string name="menu_import">インポート</string>
+    <string name="menu_export">エクスポート</string>
+    <string name="menu_settings">設定</string>
+    <string name="url_mbga_top">http://sp.mbga.jp/</string>
+    <string name="url_imascg_root">http://sp.pf.mbga.jp/12008305</string>
+    <string name="url_mbga_logout">http://sp.mbga.jp/_logout</string>
+    <string name="progress_title">インポート中</string>
+    <string name="progress_message_format">%1$s: %2$d枚</string>
+    <string name="progress_type_normal">通常</string>
+    <string name="progress_type_auth">認証済</string>
+    <string name="resume_description">途中からインポートを再開しますか？</string>
+    <string name="resume_yes">はい</string>
+    <string name="resume_no">いいえ</string>
+    <string name="import_description">更新されたデータがあります。入れ替えますか？</string>
+    <string name="import_yes">はい</string>
+    <string name="import_no">いいえ</string>
+    <string name="export_title">エクスポート</string>
+    <string name="export_description">エクスポート先のファイル名</string>
+    <string name="toast_total">%1$s人のアイドルをインポートしました</string>
+    <string name="toast_nodata">データがありません</string>
+    <string name="toast_export_finish">エクスポートを完了しました</string>
+    <string name="toast_error_listing">処理を中断しました</string>
+    <string name="file_export">present-cards.csv</string>
+    <string name="export_column_auth">type</string>
+    <string name="export_column_index">index</string>
+    <string name="export_column_name">name</string>
+    <string name="imported_date_default">----/--/-- --:--:--</string>
+    <string name="imported_date_format">yyyy/MM/dd HH:mm:ss</string>
+    <string name="indicate_total_format">%1$d種 %2$d人</string>
+    <string name="indicate_total_search_format">絞り込み: %1$s</string>
+    <string name="search_label">検索</string>
+    <string name="search_hint">アイドルを検索</string>
+
+    <!-- SettingsActivity -->
+    <string name="pref_title">設定</string>
+    <string name="pref_waittime">インターバル</string>
+    <string name="pref_waittime_default">5</string>
+    <string name="pref_waittime_summary">%1$s 秒</string>
+    <string name="pref_clear_suggestions">検索履歴の削除</string>
+    <string name="pref_clear_suggestions_summary">アプリ終了時、検索ボックスに入力されたクエリの履歴を削除します</string>
+    <string name="pref_dropbox">Dropbox認証</string>
+    <string name="pref_dropbox_disabled_summary">認証されていません。ここをタップして認証を行います</string>
+    <string name="pref_dropbox_enabled_summary">認証済みです。ここをタップすると認証トークンを削除します</string>
+    
+    <!-- ExportActivity -->
+    <string name="title_activity_export">エクスポート</string>
+    <string name="export_expalanation">SDカードにCSV形式でエクスポートします</string>
+    <string name="export_file_dir">Download/StockIdolLister/</string>
+    <string name="export_file_name_format">IdolsInPresent-%1$s.csv</string>
+    <string name="export_file_date_format">yyyyMMddHHmmss</string>
+    <string name="export_check_overwrite">上書き出力する</string>
+    <string name="export_check_dropbox">Dropboxにアップロードする</string>
+    <string name="export_check_dropbox_sub">アップロード先: Apps/StockIdolLister</string>
+    <string name="export_go">実行</string>
+    <string name="export_external">他のアプリに添付</string>
+    <string name="export_external_choose">添付したいアプリを選択</string>
+    <string name="export_app_directory">StockIdolLister</string>
+    <string name="toast_media_noready">SDカードがマウントされていません</string>
+   	<string name="toast_file_exist">同名のファイルが存在しています</string>
+   	<string name="toast_dropbox_unlinked">認証が無効です。再認証してください</string>
+   	<string name="toast_dropbox_went_wrong">正常にアップロードできませんでした</string>
+   	<string name="toast_dropbox_file_not_found">アップロードするファイルがありません</string>
+   	<string name="toast_upload_start">アップロード開始</string>
+   	<string name="toast_upload_complete">アップロードを完了しました</string>
+    <string name="toast_external_failure">アプリを実行できませんでした</string>
+   			
+   	<string name="export_warning_title">警告</string>
+   	<string name="export_warning_file_exist">同名のファイルが存在しています</string>
+
+   		<!-- IMASCG Paths -->
+    <string name="path_imascg_present">/idolmaster/present/recieve/1/</string>
+
+    <!--
+    <string name="pref_savefile">保存ファイル名</string>
+    <string name="pref_savefile_default">imascg_present.txt</string>
+    <string name="pref_savefile_summary">%1$s</string>
+    <string name="title_imascg">ｱｲﾄﾞﾙﾏｽﾀｰ</string>
+    -->
+
+
+</resources>
